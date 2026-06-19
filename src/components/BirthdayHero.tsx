@@ -20,7 +20,7 @@ export default function BirthdayHero() {
           animate={{ y: [0, -20, 0], rotate: [0, 10, -10, 0], opacity: [0.4, 0.9, 0.4] }}
           transition={{ duration: 4 + (i % 5), repeat: Infinity, delay: i * 0.2 }}
         >
-          {["💖", "🌸", "✨", "🎀", "🦋"][i % 5]}
+          {["💖", "🌸", "✨", "🎀"][i % 5]}
         </motion.span>
       ))}
 
@@ -51,7 +51,7 @@ export default function BirthdayHero() {
                 animate={{ rotate: [-2, 2, -2] }}
                 transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
               >
-                ada kejutan untukmu~
+                oiiiiiiiii~
               </motion.p>
 
               <motion.button
@@ -71,7 +71,7 @@ export default function BirthdayHero() {
                 animate={{ scale: [1, 1.05, 1] }}
                 transition={{ duration: 1.6, repeat: Infinity }}
               >
-                Coba ketuk kadonya! 🎁
+                Klikan dulu le! 🎁
               </motion.p>
             </motion.div>
           ) : (
@@ -101,7 +101,6 @@ export default function BirthdayHero() {
                 <span className="bg-gradient-to-r from-[oklch(0.7_0.18_350)] via-[oklch(0.72_0.16_310)] to-[oklch(0.72_0.14_240)] bg-clip-text text-transparent">
                   {NAME}
                 </span>{" "}
-                💖
               </motion.h1>
 
               <motion.p
@@ -110,8 +109,7 @@ export default function BirthdayHero() {
                 transition={{ delay: 0.7 }}
                 className="max-w-md text-base text-muted-foreground sm:text-lg"
               >
-                Semoga harimu sehangat pelukan, semanis kue ulang tahunmu,
-                dan seindah senyum yang selalu bikin hari aku cerah. 🌸
+                Tambah Tua dehhh. (jangan kasih liat siapa-siapa) 💖🌸
               </motion.p>
 
               <motion.button
