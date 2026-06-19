@@ -3,9 +3,10 @@ import { motion, AnimatePresence } from "framer-motion";
 import Confetti from "react-confetti";
 
 function useWindowSize() {
-  const [size, setSize] = useState({ width: window.innerWidth, height: window.innerHeight });
+  const [size, setSize] = useState({ width: 0, height: 0 });
   useEffect(() => {
     const onResize = () => setSize({ width: window.innerWidth, height: window.innerHeight });
+    onResize();
     window.addEventListener("resize", onResize);
     return () => window.removeEventListener("resize", onResize);
   }, []);
