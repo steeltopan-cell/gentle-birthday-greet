@@ -109,7 +109,7 @@ export default function BirthdayHero() {
                 transition={{ delay: 0.7 }}
                 className="max-w-md text-base text-muted-foreground sm:text-lg"
               >
-                Tambah Tua dehhh. (jangan kasih liat siapa-siapa) 💖🌸
+                Tambah Tua dehhh. (jangan kasih liat siapa-siapa) 💖🌸 ~tpn
               </motion.p>
 
               <motion.button
